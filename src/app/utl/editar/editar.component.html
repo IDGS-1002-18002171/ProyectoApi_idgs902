@@ -1,0 +1,8 @@
+<h3>Actualizar</h3>
+<hr>
+<form (ngSubmit)="actualizar()" class="form-control">
+  <input type="text" name="nombre" [(ngModel)]="alumno.nombre" placeholder="Nombre">
+  <input type="number" name="edad" [(ngModel)]="alumno.edad" placeholder="Edad">
+  <input type="email" name="correo" [(ngModel)]="alumno.correo" placeholder="Correo">
+  <button type="submit" class="btn btn-primary">Actualizar</button>
+</form>
